@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+	<html>
+		<style>
+			
+		.header{
+			color: rgb(200, 50 , 50);
+		}
+		.intro{
+			color: rgb(10,10,10);
+			font-size: 13px;
+			}
+		body{
+		background: rgb(225, 225, 225);
+		}
+		.run{
+		background: rgb(200, 50, 50); 
+		width: 750px;
+		 
+		}
+		.art1{
+		background: rgb(45 , 45, 45); 
+		width: 750px;
+		top 5000px;		
+			}
+		.wordart{
+			padding:10px;
+			left:25px;
+			}
+		.button{
+			background-color: rgb(200,50,50);
+			color: white;
+			transition-duration: .2;
+			}
+		.button:hover{
+			background-color: white;
+			color: rgb(200,50,50);
+			}
+		#gametitle{
+		position:relative;
+		left:25px;
+		}
+		#mysketch{
+		position:relative;
+		left:25px;
+		bottom:10px;
+		}
+		#title{
+			background-color:rgb(205,205,205);
+			}
+		
+		#introx{
+			width:750px;
+			background: rgb(200, 200, 200);
+			}
+		</style>
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<title>James Fleming </title>
+			<script type="text/javascript" src="processing.js"></script>
+			<script type ="text/javascript">
+				
+				function drawSomeText(id){
+					var pjs = Processing.getInstanceById(id);
+					var text = document.getElementById("inputtext").value;
+					pjs.drawText(text);
+				}
+			</script>
+			<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90842034-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+				
+		</head>
+		<body>
+		
+		<h1 class = "header" id = "title" > James Games  </h1>
+		<div>
+		<h3> Welcome to a website created by Marin Academy high schooler James Fleming</h2>
+		<p class = "introx"> This website was developed in order to create a space where my programs can be executed from any computer.
+			In doing so, I learn the basics of game development and web-development through project based discovery</p>
+			</div> 
+		<div>
+		<h2 class = "header" >Games</h2>
+		 <h3 id="gametitle" >Marin Academy Runner</h3>
+		<canvas id="mysketch" data-processing-sources="marunner2.pde"> </canvas>
+		
+		</div>
+		
+		
+		<h2 class = "header"> Art</h2>
+		<div class = "wordart">
+		<h4> Enter Text and Then Click and Drag </h4>
+		<input type = "textfield" value = "Enter Text Here" id = "inputtext"/>
+		<button class = "button" onclick="drawSomeText('phrase')"> Enter </button>
+			<div>
+				<canvas id = "phrase" data-processing-sources="phrase.pde"> </canvas>
+			</div>
+		</div>
+			
+		
+		
+		
+		  
+		<body>
+	<html>
