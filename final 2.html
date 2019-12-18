@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>CodePen - Poetry Final</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  @charset "UTF-8";
+div.descr_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.descr {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 75%;
+  text-align: center;
+}
+ul.descr li {
+  margin: 0 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+body {
+  background-color: #7fffd496;
+}
+
+header {
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+#hr_2 {
+  color: rgba(170, 80, 80, 0.877);
+}
+
+#hr_1 {
+  color: lightseagreen;
+}
+
+#description {
+  margin-bottom: 10px;
+}
+
+#information {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+p {
+  text-align: center;
+}
+
+#list li p {
+  margin: 6 0;
+}
+
+/*
+p#poem_block {
+font-style: italic;
+}
+*/
+.emotion {
+  visibility: hidden;
+  height: 0;
+}
+
+#middle {
+  padding-left: 6px !important;
+}
+
+#list li {
+  display: inline list-item;
+  padding: 0.4em 2em;
+  /*         background-image: radial-gradient(0.1 0.5);
+  background-position: top;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  */
+}
+
+#list {
+  display: flex;
+  justify-content: space-evenly;
+  /*space-around*/
+  list-style-type: none;
+  /*         list-style-type: "😊";
+  list-style-position: inside;
+  */
+  padding-left: 0;
+  margin: 0;
+}
+
+.ital {
+  font-style: italic;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.poem pre {
+  font-family: serif;
+  text-align: left;
+  margin-left: 30%;
+  line-height: 140%;
+}
+</style>
+</head>
+<body translate="no">
+<html>
+<head>
+</head>
+<body>
+<header>Words: A Vibe Check</header>
+<div id="description" class="ital">
+<p>Nathaniel Hamovitz</p>
+<p>Poetry F19</p>
+<p>An exploration of emotion</p>
+<br />
+<p>Featuring original poetry, psychology, and interviews.</p>
+</div>
+<hr id="hr_1" />
+<div id="information">
+<p><b>What is it?</b>: The definition of the word from <a href="https://www.merriam-webster.com/dictionary/">Merriam-Webster Online Dictionary</a>.</p>
+<p><b>What does _______ mean?</b>: Selected responses to word-association interviews. Respondents were prompted by the emotion and asked the first word, phrase, or idea that came to mind. Respondents span a range in age, profession, and other demographic
+markers.
+</p>
+
+<p>Following those is the beginning of an original poem constructed around each emotion. The poems are ideally meant to invoke that emotion in the reader, but failing that they hopefully provide some insight into the process of experiencing each emotion.</p>
+<p class="ital">Mouse over an emotion to explore more.</p>
+</div>
+<hr id="hr_2" />
+<nav>
+<ul id="list">
+<li>
+
+NOSTALGIA
+</li>
+<li>REVULSION</li>
+<li>APATHY</li>
+<li>CONTEMPT</li>
+</ul>
+</nav>
+<p id="poem_block">
+</p>
+
+<div id="nostalgia" class="emotion">
+<h2>What is it?</h2>
+<p>
+"the state of being homesick : homesickness; a wistful or excessively sentimental yearning for return to or of some past period or irrecoverable condition"
+</p>
+<h2>What does nostalgia mean?</h2>
+<div class="descr_div">
+<ul class="descr">
+
+<li>"old radio"</li>
+<li>"time"</li>
+<li>"sad"</li>
+<li>"childhood"</li>
+<li>"family dinner"</li>
+<li>"photograph"</li>
+<li>"Spongebob"</li>
+<li>"night"</li>
+<li>"sad memories"</li>
+<li>"reminisce"</li>
+<li>"childhood"</li>
+<li>"roller skates"</li>
+<li>"bittersweet"</li>
+<li>"lollipops"</li>
+<li>"childhood"</li>
+<li>"ended"</li>
+<li>"romance, and the past"</li>
+<li>"Adventure Time"</li>
+<li>"old"</li>
+<li>"yellow"</li>
+<li>"a waterpark"</li>
+<li>"apples"</li>
+<li>"candles"</li>
+<li>"love"</li>
+<li>"my parents"</li>
+</div>
+<br class="pre_poem">
+<div class="poem">
+<h1>Nostalgia</h1>
+<pre><i>Sepia tones:</i>
+
+Old photographs foster memories of found time,
+Fated photos fading fast.
+New photographs are old too soon,
+Nothing’s ever meant to last.
+
+Gloss gone, but 
+&#9;the memory
+of a sheen shines brighter
+than the memory of a kiss,
+&#9;&#9;a hug,
+&#9;&#9;&#9;a laugh,
+&#9;a cry. Reminisces like gravel— sand— dust—; dendrites as fingers,
+&#9;similarly ineffectual at preventing outflow.
+  
+What have you lost in the past?
+</pre>
+</div>
+</div>
+<div id="revulsion" class="emotion">
+<h2>What is it?</h2>
+<p>
+"a strong pulling or drawing away : withdrawal;; a sudden or strong reaction or change; a sense of utter distaste or repugnance"
+</p>
+<h2>What does revulsion mean?</h2>
+<div class="descr_div">
+<ul class="descr">
+<li>"disgust"</li>
+<li>"rotting"</li>
+<li>"gross"</li>
+<li>"propulsion"</li>
+<li>"rejection"</li>
+<li>"gross"</li>
+<li>"snooty face"</li>
+<li>"yucky"</li>
+<li>"disgusting"</li>
+<li>"revolution"</li>
+<li>"grotesque"</li>
+<li>"green"</li>
+<li>"revolution"</li>
+<li>"dictionary"</li>
+<li>"avocado (you know, like, a rotting avocado)"</li>
+<li>"barf"</li>
+<li>"Trump"</li>
+<li>"long car rides"</li>
+</ul>
+</div>
+<br class="pre_poem">
+<div class="poem">
+<h1>Revulsion</h1>
+<pre>yuck yuck yuck yuck yuck
+
+Get it away from me!
+Gosh, that’s gross.
+
+Oozing yellow pustules,
+Drips of slime and goo.
+Slick and wet and harboring maggots,
+A gift from me to you.
+
+Foul creatures birthed in darkness,
+Silent warrens and deep damp caves.
+Creatures lost in myth and legend
+Because its poison to say their name.
+
+yelch!
+</pre>
+</div>
+</div>
+<div id="apathy" class="emotion">
+<h2>What is it?</h2>
+<p>
+"lack of feeling or emotion : impassiveness; lack of interest or concern : indifference"
+</p>
+<h2>What does apathy mean?</h2>
+<div class="descr_div">
+<ul class="descr">
+<li>"not caring"</li>
+<li>"ennui"</li>
+<li>"the angry red emoji"</li>
+<li>"indifference"</li>
+<li>"homework"</li>
+<li>"MA"</li>
+<li>"complacency"</li>
+<li>"me"</li>
+<li>"apathetic"</li>
+<li>"nothing"</li>
+<li>"English class"</li>
+<li>"empathy"</li>
+<li>"politics"</li>
+<li>"empathy"</li>
+<li>"politics"</li>
+<li>"heartfelt"</li>
+<li>"I don't know"</li>
+<li>"disconnected"</li>
+<li>"sin"</li>
+<li>"don't vote"</li>
+</ul>
+</div>
+<br class="pre_poem">
+<div class="poem">
+<h1>Apathy</h1>
+<pre><i>In the background, Sisyphus:</i>
+
+have you heard about the latest
+Atrocity? one million women and children 
+killed and
+nothing you can do about it.
+</pre>
+</div>
+</div>
+<div id="contempt" class="emotion">
+<h2>What is it?</h2>
+<p>
+"the act of despising : the state of mind of one who despises : disdain; lack of respect or reverence for something;; the state of being despised;; willful disobedience to or open disrespect of a court, judge, or legislative body"
+</p>
+<h2>What does contempt mean?</h2>
+<div class="descr_div">
+<ul class="descr">
+<li>"anger"</li>
+<li>"court"</li>
+<li>"glare"</li>
+<li>"convent"</li>
+<li>"math"</li>
+<li>"anti-intellectualism"</li>
+<li>"content"</li>
+<li>"frustrated"</li>
+<li>"derisive"</li>
+<li>"disgruntled"</li>
+<li>"annoyed"</li>
+<li>"scrunchy eyebrows"</li>
+<li>"Trump"</li>
+<li>"hatred"</li>
+<li>"MA"</li>
+<li>"contempt of court"</li>
+<li>"spanish"</li>
+<li>"loathing"</li>
+<li>"disdain"</li>
+</ul>
+</div>
+<br class="pre_poem">
+<div class="poem">
+<h1>Contempt</h1>
+<pre>You hate me.
+
+I like to kick puppies on my days off
+from the Sadness Factory. You
+hate me.
+
+I once bought three happy meals just so
+I could dump the packaging on the ground
+in the public park.
+You
+hate me.
+
+or:
+I hate you.
+Red anger burning bright,
+Cold, sharp resolve hidden behind
+A sweet demeanor. I
+hate you.
+</pre>
+</div>
+</div>
+</body>
+</html>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.js'></script>
+<script id="rendered-js">
+      function adjust_fonts(emotion) {
+  var max = 25;
+  var min = 15;
+  
+  var baseFont = $("ul.descr li").css("font-size");
+  // console.log(baseFont);
+  
+  var fontsplit = baseFont.match(/([0-9\.]+)\s?([a-z\%]+)/);
+  // console.log(fontsplit);
+  
+  var fontUnits = fontsplit[2];
+  $("ul.descr li").each(function() {
+    var fontSize =
+      // (maxVal) / (maxVal - minVal) * (maxFont - minFont);
+      fontsplit[1] * (Math.random() + 0.55);
+    fontSize = fontSize < min ? min : fontSize > max ? max : fontSize;
+    console.log(fontSize);
+    $(this).css("font-size", fontSize + fontUnits);
+  });
+}
+
+let poem_block = document.getElementById("poem_block");
+
+let emot_data = {
+  nostalgia: { color: "#ffff90", num_descr: 25 },
+  revulsion: { color: "#9b962e", num_descr: 18 },
+  apathy: { color: "lightgray", num_descr: 20 },
+  contempt: { color: "rgba(255, 158, 172, 0.79)", num_descr: 19 }
+};
+
+function emotion(event) {
+  // var emot = event.target.lastElementChild.innerText.toLowerCase();
+  var emot = event.target.innerText.toLowerCase();
+
+  console.log(emot);
+
+  poem_block.innerHTML = document.getElementById(emot).innerHTML;
+  poem_block.className = "";
+
+  document.getElementsByTagName("body")[0]["style"]["background-color"] =
+    emot_data[emot]["color"];
+  
+  adjust_fonts(emot);
+}
+
+var l = document.getElementById("list");
+
+l.addEventListener("mouseover", emotion);
+    </script>
+</body>
+</html>
